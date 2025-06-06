@@ -15,6 +15,6 @@
 ![](https://github-profile-trophy.vercel.app/?username=pranav-m-r&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ## Contribution Graph
-![Snake animation](https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/pranav-m-r/pranav-m-r/blob/output/github-contribution-grid-snake.svg)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
