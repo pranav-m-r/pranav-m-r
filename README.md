@@ -1,7 +1,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hey%20there!%20I%27m%20Pranav&height=180&section=header"/>
 
 ## Socials
-[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)]([https://linkedin.com/in/pranav-m-r](https://github.com/pranav-m-r)) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranav-m-r) [![Kaggle](https://img.shields.io/badge/Kaggle-%2320BEFF.svg?style=for-the-badge&logo=kaggle&logoColor=white)]([https://linkedin.com/in/pranav-m-r](https://www.kaggle.com/pranavmr)) 
+[![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pranav-m-r)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pranav-m-r)
+[![Kaggle](https://img.shields.io/badge/Kaggle-%2320BEFF.svg?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/pranavmr)
 
 ## Technologies
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
