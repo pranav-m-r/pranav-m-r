@@ -11,6 +11,7 @@
 <a href="https://en.wikipedia.org/wiki/C%2B%2B"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://img.shields.io/badge/css3-%23663399.svg?style=for-the-badge&logo=css&logoColor=white"/></a>
 <a href="https://dart.dev/"><img src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white"/></a>
+<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white"/></a>
 <a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/firebase-%23DD2C00.svg?style=for-the-badge&logo=firebase"/></a>
 <a href="https://flask.palletsprojects.com/en/stable/"><img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"/></a>
 <a href="https://flower.ai/"><img src="https://img.shields.io/badge/flower-%23f6c915.svg?style=for-the-badge&logo=MLFlow&logoColor=black"/></a>
