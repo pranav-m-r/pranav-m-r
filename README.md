@@ -1,6 +1,6 @@
 <a href="https://github.com/pranav-m-r/"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hey%20there!%20I%27m%20Pranav.&height=200&section=header"/></a>
 
-<a href="https://github.com/pranav-m-r/"><img src="https://github-profile-trophy.vercel.app/?username=pranav-m-r&theme=radical&no-frame=false&no-bg=true&margin-w=4&margin-h=4"/></a>
+<a href="https://github.com/pranav-m-r/"><img src="https://github-profile-trophy.vercel.app/?username=pranav-m-r&theme=radical&no-frame=false&no-bg=true&margin-w=4&margin-h=4&column=5"/></a>
 
 ## Technologies
 <a href="https://www.anaconda.com/"><img src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white"/></a>
