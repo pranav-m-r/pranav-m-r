@@ -5,6 +5,7 @@
 ## Technologies
 <a href="https://www.anaconda.com/"><img src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white"/></a>
 <a href="https://azure.microsoft.com/"><img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=academia&logoColor=white"/></a>
+<a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white"/></a>
 <a href="https://www.blender.org/"><img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white"/></a>
 <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/bootstrap-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/></a>
@@ -20,6 +21,7 @@
 <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/></a>
+<a href="https://jupyter.org/"><img src="https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white"/></a>
 <a href="https://keras.io/"><img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/Markdown"><img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/Microsoft_Macro_Assembler"><img src="https://img.shields.io/badge/MASM-%23007AAC.svg?style=for-the-badge&logo=assemblyscript&logoColor=white"/></a>
