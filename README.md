@@ -27,7 +27,9 @@
 <a href="https://en.wikipedia.org/wiki/Markdown"><img src="https://img.shields.io/badge/Markdown-0D1117?style=for-the-badge&logo=markdown&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/Microsoft_Macro_Assembler"><img src="https://img.shields.io/badge/MASM-0D1117?style=for-the-badge&logo=assemblyscript&logoColor=007AAC"/></a>
 <a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=photon&logoColor=07405E"/></a>
+<a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=47A248"/></a>
 <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1"/></a>
+<a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=339933"/></a>
 <a href="https://numpy.org/"><img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243"/></a>
 <a href="https://opencv.org/"><img src="https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8"/></a>
 <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=2A079C"/></a>
@@ -39,7 +41,9 @@
 <a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikit-learn&logoColor=F7931E"/></a>
 <a href="https://sqlite.org/"><img src="https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=07405E"/></a>
 <a href="https://en.wikipedia.org/wiki/SQL"><img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=sqlite&logoColor=00748F"/></a>
+<a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4"/></a>
 <a href="https://www.tensorflow.org/"><img src="https://img.shields.io/badge/TensorFlow-0D1117?style=for-the-badge&logo=tensorflow&logoColor=FF6F00"/></a>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6"/></a>
 <a href="https://unity.com/"><img src="https://img.shields.io/badge/Unity-0D1117?style=for-the-badge&logo=unity&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/Verilog"><img src="https://img.shields.io/badge/Verilog-0D1117?style=for-the-badge&logo=v&logoColor=5D87BF"/></a>
 <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-0D1117?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D"/></a>
