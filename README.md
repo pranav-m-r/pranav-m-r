@@ -11,13 +11,15 @@
 <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap-0D1117?style=for-the-badge&logo=bootstrap&logoColor=7952B3"/></a>
 <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=00599C"/></a>
 <a href="https://en.wikipedia.org/wiki/C%2B%2B"><img src="https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=c%2B%2B&logoColor=00599C"/></a>
+<a href="https://claude.ai/"><img src="https://img.shields.io/badge/Claude-0D1117?style=for-the-badge&logo=claude&logoColor=D97757"/></a>
 <a href="https://en.wikipedia.org/wiki/CSS"><img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css&logoColor=1572B6"/></a>
 <a href="https://dart.dev/"><img src="https://img.shields.io/badge/Dart-0D1117?style=for-the-badge&logo=dart&logoColor=0175C2"/></a>
 <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED"/></a>
-<a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-0D1117?style=for-the-badge&logo=firebase&logoColor=FFCA28"/></a>
+<a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-0D1117?style=for-the-badge&logo=firebase&logoColor=DD2C00"/></a>
 <a href="https://flask.palletsprojects.com/en/stable/"><img src="https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=white"/></a>
 <a href="https://flower.ai/"><img src="https://img.shields.io/badge/Flower-0D1117?style=for-the-badge&logo=mlflow&logoColor=f6c915"/></a>
 <a href="https://flutter.dev/"><img src="https://img.shields.io/badge/Flutter-0D1117?style=for-the-badge&logo=flutter&logoColor=02569B"/></a>
+<a href="https://gemini.google.com/"><img src="https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=8E75B2"/></a>
 <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032"/></a>
 <a href="https://en.wikipedia.org/wiki/HTML5"><img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26"/></a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00"/></a>
@@ -31,6 +33,7 @@
 <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1"/></a>
 <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=339933"/></a>
 <a href="https://numpy.org/"><img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243"/></a>
+<a href="https://openai.com/"><img src="https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openai&logoColor=FFFFFF"/></a>
 <a href="https://opencv.org/"><img src="https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8"/></a>
 <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=2A079C"/></a>
 <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=316192"/></a>
