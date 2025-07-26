@@ -1,4 +1,4 @@
-<a href="https://github.com/pranav-m-r/"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hey%20there!%20I%27m%20Pranav.&height=200&section=header"/></a>
+<a href="https://github.com/pranav-m-r/"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&fontColor=FFFFFF&text=Hey%20there!%20I%27m%20Pranav.&height=200&section=header"/></a>
 
 <a href="https://github.com/pranav-m-r/"><img src="https://github-profile-trophy.vercel.app/?username=pranav-m-r&theme=darkhub&no-frame=false&margin-w=4&margin-h=4&column=7"/></a>
 
@@ -52,8 +52,8 @@
 <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-0D1117?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D"/></a>
 
 ## Statistics
-<a href="https://github.com/pranav-m-r/"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranav-m-r&theme=github_dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact&langs_count=8" height=200/></a>
-<a href="https://github.com/pranav-m-r/"><img src="https://nirzak-streak-stats.vercel.app/?user=pranav-m-r&theme=github_dark&hide_border=false" height=200/></a>
+<a href="https://github.com/pranav-m-r/"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranav-m-r&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=donut&langs_count=6&title_color=FFFFFF" height=200/></a>
+<a href="https://github.com/pranav-m-r/"><img src="https://streak-stats.demolab.com?user=pranav-m-r&theme=github-dark&hide_border=false&mode=weekly&fire=EB5454&ring=EB5454&dates=FFFFFF&stroke=FFFFFF&border=FFFFFF" height=200/></a>
 
 ## Contribution Graph
 <a href="https://github.com/pranav-m-r/"><img src="https://github.com/pranav-m-r/pranav-m-r/blob/output/github-contribution-grid-snake-dark.svg"/></a>
