@@ -1,6 +1,6 @@
 <a href="https://github.com/pranav-m-r/"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&fontColor=FFFFFF&text=Hey%20there!%20I%27m%20Pranav.&height=200&section=header"/></a>
 
-<a href="https://github.com/pranav-m-r/"><img src="https://github-profile-trophy.vercel.app/?username=pranav-m-r&theme=darkhub&no-frame=false&margin-w=4&margin-h=4&column=7"/></a>
+<a href="https://github.com/pranav-m-r/"><img src="https://github-profile-trophy.vercel.app/?username=pranav-m-r&theme=darkhub&no-frame=false&margin-w=4&margin-h=4&rank=-?"/></a>
 
 ## Technologies
 
