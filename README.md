@@ -26,6 +26,7 @@
 <a href="https://en.wikipedia.org/wiki/JavaScript"><img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoSize=auto&logoColor=F7DF1E"/></a>
 <a href="https://jupyter.org/"><img src="https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoSize=auto&logoColor=F37626"/></a>
 <a href="https://keras.io/"><img src="https://img.shields.io/badge/Keras-0D1117?style=for-the-badge&logo=keras&logoSize=auto&logoColor=D00000"/></a>
+<a href="https://www.latex-project.org/"><img src="https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex&logoSize=auto&logoColor=008080"/></a>
 <a href="https://en.wikipedia.org/wiki/Markdown"><img src="https://img.shields.io/badge/Markdown-0D1117?style=for-the-badge&logo=markdown&logoSize=auto&logoColor=white"/></a>
 <a href="https://en.wikipedia.org/wiki/Microsoft_Macro_Assembler"><img src="https://img.shields.io/badge/MASM-0D1117?style=for-the-badge&logo=assemblyscript&logoSize=auto&logoColor=007AAC"/></a>
 <a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=photon&logoSize=auto&logoColor=07405E"/></a>
