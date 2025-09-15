@@ -1,9 +1,9 @@
 <a href="https://github.com/pranav-m-r/"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&fontColor=FFFFFF&text=Hey%20there!%20I%27m%20Pranav.&height=200&section=header"/></a>
 <!-- Good colors: 2,4,6,12,19,20,22,24,30 -->
+
 <a href="https://github.com/pranav-m-r/"><img src="https://github-profile-trophy.vercel.app/?username=pranav-m-r&theme=darkhub&no-frame=false&margin-w=4&margin-h=4&rank=-?"/></a>
 
 ## Technologies
-
 <a href="https://www.anaconda.com/"><img src="https://img.shields.io/badge/Anaconda-0D1117?style=for-the-badge&logo=anaconda&logoSize=auto&logoColor=44A833"/></a>
 <a href="https://azure.microsoft.com/"><img src="https://img.shields.io/badge/Azure-0D1117?style=for-the-badge&logo=academia&logoSize=auto&logoColor=0072C6"/></a>
 <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoSize=auto&logoColor=4EAA25"/></a>
@@ -56,7 +56,7 @@
 <a href="https://github.com/pranav-m-r/"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranav-m-r&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=donut&langs_count=6&title_color=FFFFFF" height=200/></a>
 <a href="https://github.com/pranav-m-r/"><img src="https://streak-stats.demolab.com?user=pranav-m-r&theme=github-dark&hide_border=false&mode=weekly&fire=EB5454&ring=EB5454&dates=FFFFFF&stroke=FFFFFF&border=FFFFFF" height=200/></a>
 
-## Contribution Graph
+## Contributions
 <a href="https://github.com/pranav-m-r/"><img src="https://github.com/pranav-m-r/pranav-m-r/blob/output/github-contribution-grid-snake-dark.svg"/></a>
 
 <a href="https://github.com/pranav-m-r/"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=150&section=footer"/></a>
