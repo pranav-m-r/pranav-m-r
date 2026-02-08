@@ -51,9 +51,8 @@
 <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-0D1117?style=for-the-badge&logo=vuedotjs&logoSize=auto&logoColor=4FC08D"/></a>
 
 ## Statistics
-<!-- <a href="https://github.com/pranav-m-r/"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranav-m-r&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=donut&langs_count=6&title_color=FFFFFF" height=200/></a> -->
 <a href="https://github.com/pranav-m-r/"><img src="https://raw.githubusercontent.com/pranav-m-r/pranav-m-r/refs/heads/main/profile/top-langs.svg" height=200/></a>
-<a href="https://github.com/pranav-m-r/"><img src="https://streak-stats.demolab.com?user=pranav-m-r&theme=github-dark&hide_border=false&mode=weekly&fire=EB5454&ring=EB5454&dates=FFFFFF&stroke=FFFFFF&border=FFFFFF" height=200/></a>
+<a href="https://github.com/pranav-m-r/"><img src="https://github-readme-streak-stats.herokuapp.com/?user=pranav-m-r&theme=github-dark&hide_border=false&mode=weekly&fire=EB5454&ring=EB5454&dates=FFFFFF&stroke=FFFFFF&border=FFFFFF" height=200/></a>
 
 ## Contributions
 <a href="https://github.com/pranav-m-r/"><img src="https://github.com/pranav-m-r/pranav-m-r/blob/output/github-contribution-grid-snake-dark.svg"/></a>
