@@ -32,7 +32,7 @@
 <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoSize=auto&logoColor=4479A1"/></a>
 <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoSize=auto&logoColor=339933"/></a>
 <a href="https://numpy.org/"><img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoSize=auto&logoColor=013243"/></a>
-<a href="https://openai.com/"><img src="https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openai&logoSize=auto&logoColor=FFFFFF"/></a>
+<a href="https://openai.com/"><img src="https://img.shields.io/badge/OpenAI-0D1117?style=for-the-badge&logo=openaigym&logoSize=auto&logoColor=0081A5"/></a>
 <a href="https://opencv.org/"><img src="https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoSize=auto&logoColor=5C3EE8"/></a>
 <a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoSize=auto&logoColor=2A079C"/></a>
 <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoSize=auto&logoColor=316192"/></a>
