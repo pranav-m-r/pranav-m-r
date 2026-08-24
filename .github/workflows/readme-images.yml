@@ -1,0 +1,127 @@
+name: Update README Images
+
+on:
+  schedule:
+    - cron: "17 * * * *" # Hourly, but only does work once a day; later runs retry if anything failed
+  workflow_dispatch: # Manual runs always refresh everything
+
+concurrency:
+  group: readme-images
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Check whether a refresh is due
+        id: check
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          today=$(date -u +%F)
+          if [[ "$FORCE" != true && "$(cat profile/last-refresh.txt 2>/dev/null)" == "$today" ]]; then
+            echo "Images already refreshed today ($today); nothing to do."
+            echo "due=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate Top Languages Card
+        id: top-langs
+        if: steps.check.outputs.due == 'true'
+        continue-on-error: true
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=donut&langs_count=6&title_color=FFFFFF
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Contributions Snake
+        id: snake
+        if: steps.check.outputs.due == 'true'
+        continue-on-error: true
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: profile/snake.svg?palette=github-dark
+
+      - name: Download images
+        if: steps.check.outputs.due == 'true'
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          TOP_LANGS_OUTCOME: ${{ steps.top-langs.outcome }}
+          SNAKE_OUTCOME: ${{ steps.snake.outcome }}
+        run: |
+          set -euo pipefail
+
+          OUT_DIR=profile
+          failed=()
+
+          # Generated cards: if a generator step failed, restore the cached copy.
+          for entry in "top-langs.svg:$TOP_LANGS_OUTCOME" "snake.svg:$SNAKE_OUTCOME"; do
+            if [[ "${entry#*:}" != success ]]; then
+              git checkout -- "$OUT_DIR/${entry%%:*}" 2>/dev/null || true
+              failed+=("${entry%%:*}")
+            fi
+          done
+
+          # fetch <file> <expected text> <url>...
+          # Keeps the first response that is a complete SVG containing <expected text>;
+          # the services report some failures as HTTP 200 with an error card or plain
+          # text. On failure the previously cached file is left in place.
+          fetch() {
+            local name=$1 expect=$2 url tmp
+            shift 2
+            tmp=$(mktemp)
+            for url in "$@"; do
+              if curl -fsSL --retry 3 --retry-all-errors --retry-delay 15 --max-time 120 -o "$tmp" "$url" \
+                && grep -q '</svg>' "$tmp" && grep -q -- "$expect" "$tmp"; then
+                cp "$tmp" "$OUT_DIR/$name"
+                rm -f "$tmp"
+                echo "ok: $name ($(wc -c < "$OUT_DIR/$name") bytes)"
+                return
+              fi
+              echo "failed: $name from $url"
+            done
+            rm -f "$tmp"
+            failed+=("$name")
+          }
+
+          fetch header.svg "Hey there" \
+            "https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&fontColor=FFFFFF&text=Hey%20there!%20I%27m%20Pranav.&height=200&section=header"
+
+          fetch trophies.svg "Commits" \
+            "https://trophy.ryglcloud.net/?username=$GH_USER&theme=darkhub&no-frame=false&margin-w=4&margin-h=4&column=-1&rank=SSS,SS,S,AAA,AA,A,B,SECRET"
+
+          fetch streak-stats.svg "Total Contributions" \
+            "https://streak-stats.demolab.com/?user=$GH_USER&theme=github-dark&hide_border=false&mode=weekly&fire=EB5454&ring=EB5454&dates=FFFFFF&stroke=FFFFFF&border=FFFFFF" \
+            "https://github-readme-streak-stats.herokuapp.com/?user=$GH_USER&theme=github-dark&hide_border=false&mode=weekly&fire=EB5454&ring=EB5454&dates=FFFFFF&stroke=FFFFFF&border=FFFFFF"
+
+          fetch footer.svg "</svg>" \
+            "https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=150&section=footer"
+
+          if (( ${#failed[@]} )); then
+            msg="Failed to update: ${failed[*]}. Keeping the cached copies; will retry on the next hourly run."
+            echo "::warning::$msg"
+            echo "⚠️ $msg" >> "${GITHUB_STEP_SUMMARY:-/dev/null}"
+          else
+            date -u +%F > "$OUT_DIR/last-refresh.txt"
+            echo "All images refreshed."
+          fi
+
+      - name: Commit images
+        if: steps.check.outputs.due == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git commit -m "Updated README Images" || exit 0
+          git pull --rebase origin main
+          git push
