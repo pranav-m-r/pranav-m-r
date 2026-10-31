@@ -107,6 +107,11 @@ jobs:
           fetch footer.svg "</svg>" \
             "https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=150&section=footer"
 
+          python3 .github/scripts/merge-stat-cards.py \
+            "$OUT_DIR/top-langs.svg" "$OUT_DIR/streak-stats.svg" "$OUT_DIR/stat-cards.svg" \
+            "$OUT_DIR/trophies.svg" \
+            || failed+=("stat-cards.svg")
+
           if (( ${#failed[@]} )); then
             msg="Failed to update: ${failed[*]}. Keeping the cached copies; will retry on the next hourly run."
             echo "::warning::$msg"
